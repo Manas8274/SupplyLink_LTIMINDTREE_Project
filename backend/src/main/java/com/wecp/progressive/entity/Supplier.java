@@ -1,8 +1,12 @@
 package com.wecp.progressive.entity;
 
+<<<<<<< HEAD
 import java.util.Comparator;
 
 public class Supplier implements Comparable<Supplier>{
+=======
+public class Supplier {
+>>>>>>> 6efc4e77b2e447b04d8756696bbf495b3d3c85a3
     private int supplierId;
     private String supplierName;
     private String email;
@@ -72,6 +76,7 @@ public class Supplier implements Comparable<Supplier>{
     public void setRole(String role) {
         this.role = role;
     }
+<<<<<<< HEAD
     @Override
     public int compareTo(Supplier o) {
         return this.supplierName.compareTo(o.getSupplierName());
@@ -93,5 +98,7 @@ public class Supplier implements Comparable<Supplier>{
     
 
     
+=======
+>>>>>>> 6efc4e77b2e447b04d8756696bbf495b3d3c85a3
     
 }

@@ -11,12 +11,20 @@ public class WarehouseServiceImplJdbc implements WarehouseService {
 
     private WarehouseDAO warehouseDAO;
     
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6efc4e77b2e447b04d8756696bbf495b3d3c85a3
     public WarehouseServiceImplJdbc(WarehouseDAO warehouseDAO) {
         this.warehouseDAO = warehouseDAO;
     }
 
     @Override
     public int addWarehouse(Warehouse warehouse) {
+<<<<<<< HEAD
+=======
+        // TODO Auto-generated method stub
+>>>>>>> 6efc4e77b2e447b04d8756696bbf495b3d3c85a3
         return -1;
     }
 
@@ -40,6 +48,7 @@ public class WarehouseServiceImplJdbc implements WarehouseService {
         return null;
     }
 
+<<<<<<< HEAD
     
 
     @Override
@@ -50,6 +59,16 @@ public class WarehouseServiceImplJdbc implements WarehouseService {
     @Override
     public List<Warehouse> getWarehousesSortedByCapacity() {
         return new ArrayList<>();
+=======
+    @Override
+    public List<Warehouse> getWarehousesSortedByCapacity() {
+        return new ArrayList<>();
+    }
+
+    @Override
+    public void updateWarehouse(Warehouse warehouse) {
+        
+>>>>>>> 6efc4e77b2e447b04d8756696bbf495b3d3c85a3
     }
 
 }

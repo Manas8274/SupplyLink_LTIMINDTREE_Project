@@ -8,7 +8,11 @@ import com.wecp.progressive.entity.Supplier;
 import com.wecp.progressive.service.SupplierService;
 
 public class SupplierServiceImplJdbc  implements SupplierService{
+<<<<<<< HEAD
     private SupplierDAO supplierDAO;
+=======
+    SupplierDAO supplierDAO;
+>>>>>>> 6efc4e77b2e447b04d8756696bbf495b3d3c85a3
 
     public SupplierServiceImplJdbc(SupplierDAO supplierDAO) {
         this.supplierDAO = supplierDAO;
